@@ -1,103 +1,45 @@
-# SassGuard Bot: Your Sassy Discord Moderation Companion
+# SassGuard
 
-SassGuard is a feature-rich Discord moderation bot that keeps your server safe with style and attitude! Combining powerful protection features with a uniquely sassy personality, SassGuard brings a fresh approach to Discord server management.
+**Discord moderation and security bot with a web dashboard.** SassGuard stops scams, raids and nukes before they land, and it does it with personality: instead of silently deleting a scam, Sassy Mode calls it out in public.
 
 ![SassGuard](sassguard-banner.png)
 
-## Key Features
+[Add to Discord](https://sassguard.app/invite?src=github) · [Website](https://sassguard.app/en/) · [Docs](https://sassguard.app/en/docs) · [Blog](https://sassguard.app/en/blog) · [Support server](https://discord.gg/sassguard) · [Status](https://status.sassguard.app)
 
-### Advanced Content Moderation
+## What it does
 
-- **Smart Content Filtering**: Automatically detects and removes inappropriate content, spam, and unwanted messages with sassy responses
-- **Ghost Ping Detection**: Advanced system to catch and report ghost pings with detailed analytics
-- **Anti-Nitro Scam Protection**: Sophisticated detection of Discord Nitro scams and phishing attempts
-- **Anti-Toxic System**: Comprehensive filtering of toxic content, vulgar language, and inappropriate behavior
-- **Mass Message Protection**: Guards against spam and excessive message length
-- **Emoji Spam Prevention**: Smart detection and prevention of emoji spam
+### Security
+- **Scam and phishing detection** for links, fake Nitro offers and impersonation, checked in real time
+- **OCR image moderation** that reads text hidden in screenshots and memes, where most scams now live
+- **Raid and nuke protection** with SentinelShield, which catches mass joins and destructive admin actions
+- **Alt-account detection** that links suspicious new accounts to ones you've already banned
+- **Verification** with captcha and join gates, so bots never reach your channels
 
-### Server Management
+### Moderation
+- Automod for spam, toxicity, mass mentions, emoji spam and walls of text
+- Warnings, timeouts, ban appeals and full audit logs
+- Sassy responses that make your rules memorable instead of robotic
 
-- **Ticket System**: Fully-featured support ticket system with:
-  - Custom ticket categories
-  - Staff notification system
-  - Automatic archiving
-  - Ticket transcripts
-  - Inactivity detection
-  - Rate limiting to prevent abuse
+### Server management
+- **AI Server Buddy**, an assistant that answers questions and helps run your server
+- Ticket system with transcripts, priorities and SLA escalation
+- Server and member backups, leveling, giveaways, application forms, custom actions and scheduled channel locks
 
-- **AFK System**: 
-  - Customizable AFK status messages
-  - Automatic nickname modification
-  - Mention tracking while AFK
-  - Role-based access control
+Everything is configured from the [dashboard](https://sassguard.app/en/), with no command syntax to memorise.
 
-### Customization & Configuration
+## Getting started
 
-- **Dashboard Access**: Manage your server settings through our [web dashboard](https://sassguard.tracetech.me.uk)
-- **Per-Channel Settings**: Customize moderation rules for each channel
-- **Role-Based Permissions**: Fine-grained control over who can use various features
-- **Custom Warning Messages**: Personalize automated responses and warnings
+1. [Add SassGuard to your server](https://sassguard.app/invite?src=github)
+2. Log in at [sassguard.app](https://sassguard.app/en/) and pick your server
+3. Turn on the protections you want; sensible defaults are already set
 
-### Monitoring & Analytics
+The free tier covers most communities. [Premium](https://sassguard.app/en/premium) unlocks advanced automation and higher AI limits.
 
-- **Detailed Statistics**: Track moderation actions and server activity
-- **Audit Logging**: Comprehensive logging of all moderation actions
-- **User Violation Tracking**: Monitor and manage repeat offenders
-- **Performance Metrics**: Real-time bot performance monitoring
+## Help and feedback
 
-## Unique Personality
+- Questions and support: [discord.gg/sassguard](https://discord.gg/sassguard)
+- Feature guides: [sassguard.app/docs](https://sassguard.app/en/docs)
+- News and incident reports: [sassguard.app/blog](https://sassguard.app/en/blog)
+- Found a bug or have an idea? [Open an issue](https://github.com/SassGuard/SassGuard/issues)
 
-What sets SassGuard apart is its sassy, engaging personality. Instead of boring moderation messages, SassGuard delivers its warnings and notifications with style:
-
-- "Sweetie, your emoji keyboard needs a timeout! 🙅‍♀️"
-- "That's giving very much 'wall of text' energy, and we're not here for it! 💁‍♀️"
-- "Nice try bestie, but that nitro scam isn't fooling anyone! 💅"
-
-## Security Features
-
-- **Raid Protection**: Advanced detection and prevention of raid attempts
-- **Anti-Doxx Protection**: Automatic removal of sensitive personal information
-- **Scam Link Detection**: Comprehensive database of known scam domains
-- **Mass Mention Prevention**: Protection against mention spam and abuse
-
-## Server Organization
-
-- **Channel Management**: Tools for organizing and moderating channels effectively
-- **Auto-Archive System**: Automatic archiving of moderated content
-- **Backup Systems**: Regular backups of server configurations and settings
-
-## Getting Started
-
-1. [Invite SassGuard](https://discord.com/api/oauth2/authorize?client_id=1301277757925494845&permissions=8&scope=bot) to your server
-2. Access the [dashboard](https://sassguard.tracetech.me.uk) to configure your settings
-3. Use `/help` to view available commands and features
-
-## Dashboard Features
-
-The [SassGuard Dashboard](https://sassguard.tracetech.me.uk) provides:
-
-- Real-time server statistics
-- Advanced configuration options
-- Moderation logs and analytics
-- User management tools
-- Custom filter settings
-- Ticket system management
-
-## Technical Specifications
-
-- Written in Python using discord.py
-- Utilizes advanced machine learning for content analysis
-- Implements rate limiting and caching for optimal performance
-- Supports server sharding for scalability
-- Regular updates and maintenance
-
-## Support and Documentation
-
-- Comprehensive documentation available
-- Active support through ticket system
-- Regular feature updates and improvements
-- Community feedback implementation
-
-For more information, visit our [website](https://sassguard.tracetech.me.uk) or join our support server.
-
-*Last Updated: December 21, 2024*
+This repository holds SassGuard's public documentation and issue tracker. The bot's source code is private.
