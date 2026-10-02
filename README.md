@@ -25,7 +25,8 @@
 - Ticket system with transcripts, priorities and SLA escalation
 - Server and member backups, leveling, giveaways, application forms, custom actions and scheduled channel locks
 
-Everything is configured from the [dashboard](https://sassguard.app/en/), with no command syntax to memorise.
+Use slash commands right in Discord, or set everything up from the [dashboard](https://sassguard.app/en/).
+
 
 ## Getting started
 
